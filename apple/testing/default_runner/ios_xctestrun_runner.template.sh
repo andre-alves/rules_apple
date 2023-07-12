@@ -21,7 +21,7 @@ fi
 custom_xcodebuild_args=(%(xcodebuild_args)s)
 simulator_name=""
 device_id=""
-command_line_args=()
+command_line_args=(%(command_line_args)s)
 while [[ $# -gt 0 ]]; do
   arg="$1"
   case $arg in
